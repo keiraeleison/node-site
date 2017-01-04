@@ -6,7 +6,18 @@
 nodemon server
 
 /**
- * We are using:
+ * Additional packages used:
  * - Express.js framework's feature set for quick and easy development,
- * - EJS for loading templates from separate files.
+ * - EJS for loading templates from separate files
+ * - body parser for parsing urlencoded data entered into our contact form
  */
+
+// Install Express.js
+    npm install express --save
+
+// Install EJS
+    npm install ejs --save
+    npm install express-ejs-layouts --save
+
+// Install body-parser
+    npm install body-parser --save
