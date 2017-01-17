@@ -1,23 +1,13 @@
-/**
- * To start the node server and watch for file changes
- * Note: You still have to restart your browser manually!
- */
+# Node Site #
+An example Node.js website.
 
-nodemon server
 
-/**
- * Additional packages used:
- * - Express.js framework's feature set for quick and easy development,
- * - EJS for loading templates from separate files
- * - body parser for parsing urlencoded data entered into our contact form
- */
+## To run the server ##
 
-// Install Express.js
-    npm install express --save
+    npm install
+    node server
 
-// Install EJS
-    npm install ejs --save
-    npm install express-ejs-layouts --save
-
-// Install body-parser
-    npm install body-parser --save
+## Packages used: ##
+ * express, express-ejs-layouts // framework for quick and easy development,
+ * EJS // for loading templates from separate files
+ * body-parser // for parsing urlencoded data entered into our contact form
